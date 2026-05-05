@@ -1,0 +1,174 @@
+
+/** pricing-section **/
+
+.pricing-section{
+  position: relative;
+}
+
+.pricing-block-one .pricing-table{
+  position: relative;
+  display: block;
+  background: #1B1B1B;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.pricing-block-one .pricing-table h2{
+  position: relative;
+  display: block;
+  font-size: 36px;
+  line-height: 46px;
+  font-family: var(--text-font);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.pricing-block-one .pricing-table h2 span{
+  font-size: 16px;
+}
+
+.pricing-block-one .pricing-table h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 26px;
+  padding-bottom: 26px;
+  margin-bottom: 130px;
+}
+
+.pricing-block-one .pricing-table h3:before{
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 2px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.pricing-block-one .pricing-table .theme-btn{
+  background: #141416;
+}
+
+.pricing-block-one .pricing-table .table-header{
+  position: relative;
+}
+
+.pricing-block-one .pricing-table .table-header:before{
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.05);
+  width: 1px;
+  height: 100%;
+  top: 0px;
+  right: -15px;
+}
+
+.pricing-block-one .pricing-table .feature-list li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 44px;
+}
+
+.pricing-block-one .pricing-table .feature-list li.light{
+  opacity: 0.2;
+}
+
+.pricing-page-section .pricing-block-one .pricing-table{
+  background: transparent;
+  border: 1px solid #1B1B1B;
+}
+
+.pricing-page-section .pricing-block-one .pricing-table .theme-btn{
+  background: #1B1B1B;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .pricing-block-one .pricing-table .table-header:before{
+    display: none;
+  }
+
+  .pricing-block-one .pricing-table .feature-list{
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .pricing-section{
+    padding-bottom: 40px;
+  }
+
+  .pricing-block-one .pricing-table h3{
+    margin-bottom: 50px;
+  }
+
+  .pricing-page-section{
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .pricing-block-one .pricing-table{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

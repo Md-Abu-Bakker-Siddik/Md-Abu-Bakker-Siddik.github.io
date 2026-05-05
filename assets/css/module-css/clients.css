@@ -1,0 +1,104 @@
+
+/** clients-section **/
+
+.clients-section{
+  position: relative;
+}
+
+.clients-section .clients-logo{
+  position: relative;
+  display: block;
+}
+
+.clients-section .clients-logo img{
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.clients-section .owl-stage{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-section.alternat-2{
+  background: #1B1B1B;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .clients-section{
+    padding-bottom: 70px;
+  }
+
+  .clients-section.alternat-2{
+    padding-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

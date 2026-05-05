@@ -1,0 +1,420 @@
+
+/** shop-details **/
+
+.shop-details{
+  position: relative;
+}
+
+.shop-details-content{
+  position: relative;
+  display: block;
+  margin-bottom: 55px;
+}
+
+.shop-details-content .products-image-block{
+  position: relative;
+  display: block;
+}
+
+.shop-details-content .products-image-block .image-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.shop-details-content .products-image-block .image-box .image{
+  position: relative;
+  display: block;
+}
+
+.shop-details-content .products-image-block .image-box .image img{
+  width: 100%;
+}
+
+.shop-details-content .products-image-block .image-box .category{
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+  top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  padding: 3px 19px;
+  border-radius: 40px;
+  z-index: 1;
+}
+
+.shop-details-content .products-image-block .thumb-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.shop-details-content .products-image-block .thumb-box li{
+  margin-right: 30px;
+}
+
+.shop-details-content .products-image-block .thumb-box li:last-child{
+  margin: 0px !important;
+}
+
+.shop-details-content .products-image-block .thumb-box li a{
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 99px;
+  z-index: 1;
+}
+
+.shop-details-content .products-image-block .thumb-box li a img{
+  width: 100%;
+}
+
+.shop-details-content .products-image-block .thumb-box li a.active{
+  
+}
+
+.shop-details-content .content-box{
+  position: relative;
+  display: block;
+}
+
+.shop-details-content .content-box h2{
+  display: block;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 15px;
+}
+
+.shop-details-content .content-box .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  margin-bottom: 15px;
+}
+
+.shop-details-content .content-box h3{
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.shop-details-content .content-box h3 del{
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--text-font);
+  color: var(--text-color);
+}
+
+.shop-details-content .content-box .customer-rating .rating li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+}
+
+.shop-details-content .content-box .customer-rating{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.shop-details-content .content-box .customer-rating .review a{
+  position: relative;
+  display: inline-block;
+  color: var(--text-color);
+  margin-left: 10px;
+}
+
+.shop-details-content .content-box .customer-rating .review a:hover{
+
+}
+
+.shop-details-content .content-box .text{
+  position: relative;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.shop-details-content .content-box .cart-btn{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  text-align: center;
+  padding: 12px 43px;
+  transition: all 500ms ease;
+}
+
+.shop-details-content .content-box .cart-btn i{
+  position: relative;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.shop-details-content .addto-cart-box .item-quantity {
+  position: relative;
+  display: inline-block;
+  max-width: 174px;
+  height: 50px;
+  width: 100%;
+  float: left;
+  padding: 0px 40px;
+  background: #1B1B1B;
+  z-index: 1;
+}
+
+.shop-details-content .addto-cart-box input.quantity-spinner {
+  line-height: 48px;
+  height: 48px;
+  width: 43px !important;
+  padding: 0px !important;
+  box-shadow: none !important;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  background: transparent;
+}
+
+.shop-details-content .content-box .phone{
+  position: relative;
+  display: block;
+  padding-left: 58px;
+}
+
+.shop-details-content .content-box .phone .icon-box{
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+.shop-details-content .content-box .phone span{
+  position: relative;
+  display: block;
+}
+
+.shop-details-content .content-box .phone h3{
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  color: #fff;
+}
+
+.shop-details-content .content-box .phone h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.shop-details-content .content-box .phone h3 a:hover{
+  color: var(--theme-color);
+}
+
+.shop-details-content .content-box .tags-list{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.shop-details-content .content-box .tags-list li{
+  margin-right: 5px;
+}
+
+.shop-details-content .content-box .tags-list li:last-child{
+  margin: 0px !important;
+}
+
+.shop-details-content .content-box .tags-list h6{
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns{
+  margin-bottom: 25px;
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: var(--title-font);
+  font-weight: 700;
+  cursor: pointer;
+  float: left;
+  margin-right: 30px;
+  border: 1px solid #1B1B1B;
+  padding: 16px 38px;
+  transition: all 500ms ease;
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li:last-child{
+  margin: 0px !important;
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li.active-btn,
+.shop-details .product-discription .tab-btn-box .tab-btns li:hover{
+  color: #fff;
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li:before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  left: 0px;
+  bottom: -1px;
+  opacity: 0;
+  z-index: 1;
+  transition: all 500ms ease;
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li.active-btn:before{
+  opacity: 1;
+}
+
+.shop-details .product-discription .tabs-content{
+  position: relative;
+  display: block;
+}
+
+.shop-details .product-discription .tabs-content .content-box h3{
+  display: block;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.shop-details .product-discription .customer-inner .rating li{
+  
+}
+
+.shop-details .product-discription .customer-inner .customer-review{
+  border-bottom: 1px solid #1B1B1B;
+}
+
+.shop-details .product-discription .comment-form input,
+.shop-details .product-discription .comment-form textarea{
+  border: 1px solid #1B1B1B;
+}
+
+.shop-details .product-discription .comment-form textarea{
+  height: 170px;
+  resize: none;
+}
+
+.shop-details .product-discription .check-box label{
+  color: #808080;
+}
+
+.shop-details .product-discription .theme-btn{
+  padding: 16px 30px;
+}
+
+.shop-details .product-discription .tab-btn-box{
+  position: relative;
+}
+
+.shop-details .related-product .title-text h3{
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .shop-details-content .products-image-block{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .shop-details{
+    padding: 70px 0px 40px 0px;
+  }
+
+  .shop-details-content .products-image-block .thumb-box{
+    display: block;
+    text-align: center;
+  }
+
+  .shop-details-content .products-image-block .thumb-box li{
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .shop-details .product-discription{
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+  .shop-details-content .addto-cart-box li{
+    margin-bottom: 10px;
+  }
+
+  .shop-details-content .content-box .tags-list{
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

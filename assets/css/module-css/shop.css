@@ -1,0 +1,263 @@
+
+/** shop-page-section **/
+
+.shop-page-section{
+  position: relative;
+}
+
+.wrapper.list .shop-list-content{
+  display: block;
+}
+
+.wrapper.list .shop-grid-content{
+  display: none
+}
+
+.wrapper.grid .shop-list-content{
+  display: none;
+}
+
+.wrapper.grid .shop-grid-content{
+  display: block
+}
+
+.shop-page-section .item-shorting{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+  border-top: 1px solid #1B1B1B;
+  border-bottom: 1px solid #1B1B1B;
+}
+
+.shop-page-section .item-shorting .left-column,
+.shop-page-section .item-shorting .right-column{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.shop-page-section .item-shorting .menu-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.shop-page-section .item-shorting .menu-box button{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #1B1B1B;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.shop-page-section .item-shorting .menu-box button.on{
+
+}
+
+.shop-page-section .item-shorting .select-box{
+  position: relative;
+  min-height: 40px;
+}
+
+.shop-page-section .item-shorting .select-box .nice-select{
+  position: relative;
+  font-size: 16px;
+  line-height: 40px;
+  color: #BABABA;
+  border: 1px solid #1B1B1B;
+  padding: 0px 50px 0px 25px;
+  background: transparent;
+}
+
+.shop-page-section .item-shorting .select-box .nice-select:before{
+  position: absolute;
+  content: '\e920';
+  font-family: 'icomoon';
+  top: 3px;
+  right: 24px;
+  font-size: 10px;
+}
+
+.shop-page-section .item-shorting .filter-btn button{
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  background: #1B1B1B;
+  transition: all 500ms ease;
+}
+
+.shop-page-section .item-shorting .filter-btn button:hover{
+
+}
+
+.shop-page-section .nice-select .list{
+  min-width: 190px;
+}
+
+.shop-block-one .inner-box{
+  position: relative;
+  display: block;
+  border: 1px solid #1B1B1B;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.shop-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.shop-block-one .inner-box .image-box img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.shop-block-one .inner-box:hover .image-box img{
+  transform: scale(1.05);
+}
+
+.shop-block-one .inner-box .lower-content{
+  position: relative;
+  padding-top: 22px;
+}
+
+.shop-block-one .inner-box .lower-content h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 12px;
+}
+
+.shop-block-one .inner-box .lower-content h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.shop-block-one .inner-box .lower-content h3 a:hover{
+
+}
+
+.shop-block-one .inner-box .lower-content .price{
+  margin-bottom: 20px;
+}
+
+.shop-block-one .inner-box .lower-content .price del{
+  font-size: 14px;
+  font-family: var(--text-font);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.shop-block-one .inner-box .lower-content .cart-btn{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-color);
+  background: #1B1B1B;
+  text-align: center;
+  padding: 17px 38px;
+  transition: all 500ms ease;
+}
+
+.shop-block-one .inner-box .lower-content .cart-btn i{
+  position: relative;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.shop-block-one .inner-box .lower-content .cart-btn:hover{
+  color: #fff;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .shop-page-section{
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .shop-page-section .item-shorting{
+    display: block;
+  }
+
+  .shop-page-section .item-shorting .left-column{
+    margin-bottom: 15px;
+  }
+
+  .shop-page-section .item-shorting .left-column, 
+  .shop-page-section .item-shorting .right-column{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

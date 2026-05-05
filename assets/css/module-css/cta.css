@@ -1,0 +1,212 @@
+
+/** cta-section **/
+
+.cta-section{
+  position: relative;
+}
+
+.cta-section .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-section .inner-box h2{
+  position: relative;
+  display: block;
+  font-size: 72px;
+  line-height: 82px;
+}
+
+.cta-section .btn-box{
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  border: 1px solid #1B1B1B;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.cta-section .btn-box .shape{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  -webkit-animation: service_hexagon 25s infinite linear;
+  -moz-animation: service_hexagon 25s infinite linear;
+  -o-animation: service_hexagon 25s infinite linear;
+  animation: service_hexagon 25s infinite linear;
+}
+
+.cta-section .btn-box .shape:before{
+  position: absolute;
+  content: '';
+  left: 30px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.cta-section .btn-box a{
+  position: relative;
+  display: inline-block;
+  width: 146px;
+  height: 146px;
+  line-height: 164px;
+  text-align: left;
+  font-size: 16px;
+  background: #1B1B1B;
+  color: #BABABA;
+  border-radius: 50%;
+  padding: 0px 25px;
+}
+
+.cta-section .btn-box a:hover{
+  color: #fff;
+}
+
+.cta-section .btn-box a span{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cta-section .btn-box a span:before{
+  position: absolute;
+  content: '\e901';
+  font-family: 'icomoon';
+  font-size: 12px;
+  bottom: -1px;
+  right: 30px;
+  transition: all 500ms ease;
+}
+
+.cta-section .pattern-layer .pattern-1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cta-section .pattern-layer .pattern-2{
+  position: absolute;
+  left: 76px;
+  bottom: 24px;
+  width: 60px;
+  height: 88px;
+  background-repeat: no-repeat;
+}
+
+.cta-section .pattern-layer .pattern-3{
+  position: absolute;
+  right: 0px;
+  bottom: 102px;
+  width: 152px;
+  height: 88px;
+  background-repeat: no-repeat;
+}
+
+.cta-section.alternat-2{
+  background: transparent;
+  padding: 0px;
+}
+
+.cta-section.alternat-2 .inner-container{
+  padding: 80px 120px;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .cta-section .inner-box{
+    display: block;
+  }
+
+  .cta-section .inner-box h2{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .cta-section{
+    padding: 65px 0px 70px 0px;
+  }
+
+  .cta-section.alternat-2 .inner-container{
+    padding: 60px 30px 70px 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,297 @@
+
+/** service-details **/
+
+.service-details{
+  position: relative;
+}
+
+.service-details .title-box{
+  position: relative;
+  display: block;
+  padding-left: 85px;
+  margin-bottom: 47px;
+}
+
+.service-details .title-box .icon-box{
+  position: absolute;
+  left: 0px;
+  top: -3px;
+}
+
+.service-details .title-box h3{
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.service-details .content-box{
+  position: relative;
+  display: block;
+  padding-left: 220px;
+}
+
+.service-details .content-box p{
+  margin-bottom: 30px;
+}
+
+.service-details .content-box p:last-child{
+  margin-bottom: 0px;
+}
+
+.service-details .video-inner{
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 186px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-details .video-inner .curve-text{
+  background: transparent;
+}
+
+.service-details .video-inner .curve-text .curved-circle{
+  color: #fff;
+}
+
+.service-details .video-inner .curve-text .icon-box{
+  border: none;
+  background: rgba(20, 20, 22, 0.30);
+}
+
+.service-details .video-inner .curve-text .icon-box a{
+  color: #fff;
+}
+
+.service-details .video-inner .curve-text .curved-circle .char10,
+.service-details .video-inner .curve-text .curved-circle .char11,
+.service-details .video-inner .curve-text .curved-circle .char12,
+.service-details .video-inner .curve-text .curved-circle .char13,
+.service-details .video-inner .curve-text .curved-circle .char14,
+.service-details .video-inner .curve-text .curved-circle .char15,
+.service-details .video-inner .curve-text .curved-circle .char16,
+.service-details .video-inner .curve-text .curved-circle .char17{
+  color: #fff;
+}
+
+.service-details .inner-box{
+  position: relative;
+  max-width: 636px;
+}
+
+.service-details .funfact-block-one:before,
+.service-details .funfact-block-one .shape{
+  display: none;
+}
+
+.service-details .funfact-block-one{
+  background: #1B1B1B;
+  border-radius: 0px;
+}
+
+.service-details .inner-box .list-item li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 44px;
+  padding-left: 35px;
+}
+
+.service-details .inner-box .list-item li:before{
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 12px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../../images/icons/icon-32.png);
+  background-repeat: no-repeat;
+}
+
+.service-details .accordion-box .accordion.active-block{
+  border-color: #1B1B1B;
+  background: #1B1B1B;
+}
+
+.service-details .nav-btn-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-details .nav-btn-box .single-btn{
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  border: 1px solid #1B1B1B;
+  border-radius: 50%;
+  padding: 12px;
+  transition: all 500ms ease;
+}
+
+.service-details .nav-btn-box .single-btn:hover{
+
+}
+
+.service-details .nav-btn-box .single-btn .shape{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  -webkit-animation: service_hexagon 25s infinite linear;
+  -moz-animation: service_hexagon 25s infinite linear;
+  -o-animation: service_hexagon 25s infinite linear;
+  animation: service_hexagon 25s infinite linear;
+}
+
+.service-details .nav-btn-box .single-btn .shape:before{
+  position: absolute;
+  content: '';
+  left: 30px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #1B1B1B;
+  transition: all 500ms ease;
+}
+
+.service-details .nav-btn-box .single-btn:hover .shape:before{
+
+}
+
+.service-details .nav-btn-box .single-btn button{
+  position: relative;
+  display: inline-block;
+  width: 146px;
+  height: 146px;
+  line-height: 164px;
+  text-align: left;
+  font-size: 16px;
+  background: #1B1B1B;
+  color: #BABABA;
+  border-radius: 50%;
+  padding: 0px 40px;
+  transition: all 500ms ease;
+}
+
+.service-details .nav-btn-box .single-btn.prev-btn button{
+  text-align: right;
+}
+
+.service-details .nav-btn-box .single-btn button:hover{
+  
+}
+
+.service-details .nav-btn-box .single-btn button span{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.service-details .nav-btn-box .single-btn button span:before{
+  position: absolute;
+  content: '\e901';
+  font-family: 'icomoon';
+  font-size: 16px;
+  bottom: 23px;
+  transition: all 500ms ease;
+}
+
+.service-details .nav-btn-box .single-btn.next-btn button span:before{
+  right: 5px;
+}
+
+.service-details .nav-btn-box .single-btn.prev-btn button span:before{
+  left: 8px;
+  transform: rotate(-90deg);
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .service-details .content-box{
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .service-details .inner-box{
+    margin-left: 0px;
+    max-width: 100%;
+  }
+
+  .service-details .funfact-block-one:first-child{
+    margin-bottom: 30px;
+  }
+
+  .service-details{
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,553 @@
+
+/* template-color */
+
+
+.xs-sidebar-group .content-inner .info-box .info li .icon{
+	color: var(--theme-color);
+}
+
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a{
+ 	color: var(--theme-color); 
+}
+
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > .megamenu{
+	background: var(--theme-color);
+}
+
+.main-menu .navigation > li > ul > li > ul{
+	background: var(--theme-color);
+}
+
+.main-header .menu-right-content .search-box-outer{
+	color: var(--theme-color);
+}
+
+.theme-btn span:before{
+	color: var(--theme-color);
+}
+
+.theme-btn:before{
+	background: var(--theme-color);
+}
+
+.banner-section .content-box h2 span{
+  color: var(--theme-color);
+}
+
+.curve-text .curved-circle .char10,
+.curve-text .curved-circle .char11,
+.curve-text .curved-circle .char12,
+.curve-text .curved-circle .char13,
+.curve-text .curved-circle .char14,
+.curve-text .curved-circle .char15,
+.curve-text .curved-circle .char16,
+.curve-text .curved-circle .char17{
+  color: var(--theme-color); 
+}
+
+.banner-section .content-box .social-links li a:hover{
+  color: var(--theme-color);
+}
+
+.banner-section .content-box .video-btn a:hover{
+  background: var(--theme-color);
+}
+
+.sub-title:before{
+	background: var(--theme-color);
+}
+
+.about-section .image-box .btn-box a span:before{
+	color: var(--theme-color);
+}
+
+.about-section .image-box .btn-box a:hover{
+  background: var(--theme-color);
+}
+
+.about-section .image-box .btn-box .shape:before{
+	background: var(--theme-color);
+}
+
+.about-section .inner-box .single-item p span{
+  color: var(--theme-color);
+}
+
+.about-section .inner-box .single-item:nth-child(3){
+  background: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.service-block-one .inner-box .links-list li a:hover{
+  background: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.service-block-one .inner-box .link a:hover{
+  color: var(--theme-color);
+}
+
+.content_block_one .content-box .inner-box .single-item:hover h3 span{
+  background: var(--theme-color);
+}
+
+.content_block_one .content-box .inner-box .single-item .link a{
+	color: var(--theme-color);
+}
+
+.content_block_one .content-box .more-link a:hover{
+  color: var(--theme-color);
+}
+
+.content_block_one .content-box .more-link a span:before{
+	color: var(--theme-color);
+}
+
+.gallery-block-one .inner-box .lower-content .link a:hover{
+  background: var(--theme-color);
+}
+
+.gallery-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--theme-color);
+}
+
+.gallery-block-one .inner-box .image-box .link-btn a{
+	color: var(--theme-color);
+}
+
+.gallery-block-one .inner-box .image-box .link-btn a:hover{
+  background: var(--theme-color);
+}
+
+.testimonial-block-one .inner-box .icon-box{
+	color: var(--theme-color);
+}
+
+.dots-style-one .owl-dots .owl-dot.active span,
+.dots-style-one .owl-dots .owl-dot span:hover{
+	background: var(--theme-color);
+	border-color: var(--theme-color);
+}
+
+.curve-text .icon-box a{
+	color: var(--theme-color);
+}
+
+.video-section .text-box h2 span:before{
+	background: var(--theme-color);
+}
+
+.working-block-one:hover .icon-box  .count-text{
+  color: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.working-block-one h3 a:hover{
+  color: var(--theme-color);
+}
+
+.working-block-one:hover .shape:before{
+  background: var(--theme-color);
+}
+
+.working-section .pattern-layer{
+	border: 100px solid var(--theme-color);
+}
+
+.cta-section{
+	background: var(--theme-color);
+}
+
+.cta-section .btn-box a span:before{
+	color: var(--theme-color);
+}
+
+.news-block-one .inner-box .lower-content .post-info li a:hover{
+	background: var(--theme-color);
+}
+
+.news-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--theme-color);
+}
+
+.news-block-one .inner-box .link a:hover{
+  color: var(--theme-color);
+}
+
+.slide-text .big-text .theme_color{
+  color: var(--theme-color);
+}
+
+.main-footer .logo-widget h3 a:hover{
+  color: var(--theme-color);
+}
+
+.main-footer .links-widget .links-list li a:hover{
+  color: var(--theme-color);
+}
+
+.main-footer .subscribe-widget form .form-group input[type='email']:focus{
+	border-color: var(--theme-color);
+}
+
+.main-footer .subscribe-widget .footer-menu li a:hover{
+  color: var(--theme-color);
+}
+
+.footer-bottom .bottom-inner p a{
+	color: var(--theme-color);
+}
+
+.main-footer .social-links a:hover{
+  background: var(--theme-color);
+}
+
+.banner-style-two .content-box h2 span:before{
+  background: var(--theme-color);
+}
+
+.funfact-block-one .count-outer .symble{
+	color: var(--theme-color);
+}
+
+.funfact-block-one .clients-list li span{
+	background: var(--theme-color);
+}
+
+.service-block-one .inner-box .link a{
+	color: var(--theme-color);
+}
+
+.service-block-two .inner-box:hover{
+  border-color: var(--theme-color);
+}
+
+.service-block-two .inner-box:before{
+	background: var(--theme-color);
+}
+
+.service-block-two .inner-box .link a{
+	color: var(--theme-color);
+}
+
+.gallery-block-two h2 a:hover{
+  color: var(--theme-color);
+}
+
+.gallery-block-two .image-box .link a{
+	color: var(--theme-color);
+}
+
+.gallery-block-two .image-box .link a:hover{
+  background: var(--theme-color);
+}
+
+.video-section.style-two{
+	background: var(--theme-color);
+}
+
+.team-block-one .inner-box .image-box .social-links li a:hover{
+  background: var(--theme-color);
+}
+
+.team-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--theme-color);
+}
+
+.team-block-one .inner-box .lower-content .designation{
+	color: var(--theme-color);
+}
+
+.image_block_two .image-box .image-shape .shape-2{
+	border: 40px solid var(--theme-color);
+}
+
+.testimonial-block-two .inner-box .icon-box{
+	color: var(--theme-color);
+}
+
+.testimonial-block-two .inner-box .author-box{
+	border-bottom: 1px solid var(--theme-color);
+}
+
+.accordion-box .accordion .acc-btn.active .icon-box{
+	color: var(--theme-color);
+}
+
+.banner-style-three .content-box .rating-box .rating li{
+	color: var(--theme-color);
+}
+
+.banner-style-three .inner-box h2 span{
+	color: var(--theme-color);
+}
+
+.banner-style-three .inner-box .clients-list li span{
+	background: var(--theme-color);
+}
+
+.banner-style-three .lower-box .lower-content{
+	background: var(--theme-color);
+}
+
+.banner-style-three .lower-box .video-btn a:hover{
+  color: var(--theme-color);
+}
+
+.image_block_three .image-box .video-btn{
+	background: var(--theme-color);
+}
+
+.content_block_three .content-box .inner-box .single-column:nth-child(2) .single-item{
+	background: var(--theme-color);
+}
+
+.gallery-style-three .gallery-list li a:hover i{
+	color: var(--theme-color);
+}
+
+.gallery-style-three .gallery-list li .image-box:before{
+	background: var(--theme-color);
+}
+
+.pricing-block-one .pricing-table h2 span{
+  color: var(--theme-color);
+}
+
+.pricing-block-one .pricing-table h3:before{
+	background: var(--theme-color);
+}
+
+.cta-section.alternat-2 .inner-container{
+  background: var(--theme-color);
+}
+
+.page-title .bread-crumb li a:hover{
+  color: var(--theme-color);
+}
+
+.page-title .bread-crumb:before{
+	background: var(--theme-color);
+}
+
+.service-details .nav-btn-box .single-btn:hover{
+  border-color: var(--theme-color);
+}
+
+.service-details .nav-btn-box .single-btn:hover .shape:before{
+  background: var(--theme-color);
+}
+
+.service-details .nav-btn-box .single-btn button:hover{
+  color: var(--theme-color);
+}
+
+.team-details-content .content-box .designation{
+	color: var(--theme-color);
+}
+
+.team-details-content .content-box .info-list li .icon-box{
+	background: var(--theme-color);
+}
+
+.team-details-content .content-box .info-list li h3 a:hover{
+  color: var(--theme-color);
+}
+
+.team-details .education-content .single-item span{
+	color: var(--theme-color);
+}
+
+.progress-box .bar-inner{
+	background: var(--theme-color);
+}
+
+.gallery-details-content .upper-image .category{
+	background: var(--theme-color);
+}
+
+.gallery-details-content .content-box .two-column .list-item li h4 a:hover{
+  color: var(--theme-color);
+}
+
+.gallery-details-content .nav-btn-box .single-btn:hover{
+	border-color: var(--theme-color);
+}
+
+.gallery-details-content .nav-btn-box .single-btn:hover .shape:before{
+	background: var(--theme-color);
+}
+
+.gallery-details-content .nav-btn-box .single-btn button:hover{
+  color: var(--theme-color);
+}
+
+.shop-page-section .item-shorting .menu-box button.on{
+  background: var(--theme-color);
+}
+
+.shop-page-section .item-shorting .filter-btn button:hover{
+  background: var(--theme-color);
+}
+
+.shop-block-one .inner-box .lower-content h3 a:hover{
+  color: var(--theme-color);
+}
+
+.shop-block-one .inner-box .lower-content .price{
+	color: var(--theme-color);
+}
+
+.shop-block-one .inner-box .lower-content .cart-btn:hover{
+  background: var(--theme-color);
+}
+
+.shop-details-content .products-image-block .image-box .category{
+	background: var(--theme-color);
+}
+
+.shop-details-content .content-box h3{
+	color: var(--theme-color);
+}
+
+.shop-details-content .content-box .customer-rating .rating li{
+	color: var(--theme-color);
+}
+
+.shop-details-content .content-box .customer-rating .review a:hover{
+	color: var(--theme-color);
+}
+
+.shop-details-content .content-box .cart-btn{
+	background: var(--theme-color);
+}
+
+.shop-details .product-discription .tab-btn-box .tab-btns li.active-btn,
+.shop-details .product-discription .tab-btn-box .tab-btns li:hover{
+  background: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.shop-details .product-discription .customer-inner .rating li{
+  color: var(--theme-color);
+}
+
+.blog-sidebar .search-widget .form-group button[type='submit']{
+	color: var(--theme-color);
+}
+
+.blog-sidebar .category-widget .category-list li a:hover{
+  background: var(--theme-color);
+}
+
+.blog-sidebar .social-widget .social-links li a:hover{
+  background: var(--theme-color);
+}
+
+.blog-sidebar .post-widget .post h6 a:hover{
+  color: var(--theme-color);
+}
+
+.blog-sidebar .post-widget .post .link a:hover{
+  color: var(--theme-color);
+}
+
+.blog-sidebar .contact-widget .info-list li .icon-box{
+	background: var(--theme-color);
+}
+
+.blog-sidebar .contact-widget .info-list li h3 a:hover{
+	color: var(--theme-color);
+}
+
+.news-block-one .inner-box .lower-content h2 a:hover{
+  color: var(--theme-color);
+}
+
+.blog-details-content .post-tags .tags-list li a:hover{
+  background: var(--theme-color);
+}
+
+.blog-details-content .author-box a{
+	background: var(--theme-color);
+}
+
+.blog-details-content .nav-btn-box .single-btn button:hover{
+  color: var(--theme-color);
+}
+
+.blog-details-content .nav-btn-box .single-btn:hover .shape:before{
+  background: var(--theme-color);
+}
+
+.blog-details-content .comment-box .comment .reply-btn:hover{
+  background: var(--theme-color);
+}
+
+.blog-details-content .comment-form-area .form-group input:focus,
+.blog-details-content .comment-form-area .form-group textarea:focus{
+  border-color: var(--theme-color) !important;
+}
+
+.blog-details-content .comment-form-area p span{
+	color: var(--theme-color);
+}
+
+.contact-info-section .info-inner .info-list li .icon-box{
+	background: var(--theme-color);
+}
+
+.contact-info-section .info-inner .info-list li h3 a:hover{
+	color: var(--theme-color);
+}
+
+.contact-info-section .info-inner .info-content .social-links li a:hover{
+  background: var(--theme-color);
+}
+
+.contact-section .form-inner p span{
+	color: var(--theme-color);
+}
+
+.contact-section .form-inner .form-group input:focus,
+.contact-section .form-inner .form-group textarea:focus{
+  border-color: var(--theme-color) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

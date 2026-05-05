@@ -1,0 +1,273 @@
+
+/** contact-info-section **/
+
+.contact-info-section{
+  position: relative;
+}
+
+.contact-info-section .form-inner{
+  position: relative;
+  display: block;
+  height: 690px;
+}
+
+.contact-info-section .form-inner iframe{
+  position: relative;
+  width: 100%;
+  height: 690px;
+}
+
+.contact-info-section .info-inner{
+  position: relative;
+  display: block;
+}
+
+.contact-info-section .info-inner .info-list li{
+  position: relative;
+  display: block;
+  padding-left: 85px;
+  margin-bottom: 30px;
+}
+
+.contact-info-section .info-inner .info-list li .icon-box{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.contact-info-section .info-inner .info-list li span{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.contact-info-section .info-inner .info-list li h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+}
+
+.contact-info-section .info-inner .info-list li h3 a{
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+.contact-info-section .info-inner .info-list li h3 a:hover{
+
+}
+
+.contact-info-section .info-inner .info-content{
+  position: relative;
+  padding-right: 60px;
+}
+
+.contact-info-section .info-inner .info-content .social-links{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.contact-info-section .info-inner .info-content .social-links li{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-info-section .info-inner .info-content .social-links li:last-child{
+  margin-bottom: 0px;
+}
+
+.contact-info-section .info-inner .info-content .social-links li a{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(186, 186, 186, 0.30);
+  background: #1B1B1B;
+}
+
+.contact-info-section .info-inner .info-content .social-links li a:hover{
+  color: #fff;
+}
+
+
+/** contact-section **/
+
+.contact-section{
+  position: relative;
+}
+
+.contact-section .form-inner{
+  position: relative;
+  width: 100%;
+  background: #1B1B1B;
+  padding: 100px 120px;
+}
+
+.contact-section .form-inner h2{
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.contact-section .form-inner .form-group{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.contact-section .form-inner .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.contact-section .form-inner .form-group input[type='text'],
+.contact-section .form-inner .form-group input[type='email'],
+.contact-section .form-inner .form-group textarea{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  color: rgba(186, 186, 186, 0.30);
+  font-size: 16px;
+  padding: 10px 0px;
+  transition: all 500ms ease;
+}
+
+.contact-section .form-inner .form-group input:focus,
+.contact-section .form-inner .form-group textarea:focus{
+  color: var(--text-color);
+}
+
+.contact-section .form-inner .form-group textarea{
+  height: 120px;
+  resize: none;
+}
+
+.contact-section .form-inner .form-group label{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: var(--title-font);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contact-section .form-inner p{
+  margin-bottom: 30px;
+}
+
+.contact-section .form-inner .form-group .theme-btn{
+  background: #141416;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+  .contact-info-section .form-inner{
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .contact-info-section{
+    padding: 70px 0px;
+  }
+
+  .contact-section{
+    padding-bottom: 70px;
+  }
+
+  .contact-section .form-inner{
+    padding: 70px 30px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .contact-info-section .info-inner .info-content .social-links{
+    position: relative;
+  }
+
+  .contact-info-section .info-inner .info-content .social-links li{
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+  .contact-info-section .info-inner .info-content{
+    padding-right: 0px;
+  }
+
+  .contact-info-section .info-inner .info-list li h3{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

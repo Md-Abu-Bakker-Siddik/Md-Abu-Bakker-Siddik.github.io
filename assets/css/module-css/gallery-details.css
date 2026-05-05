@@ -1,0 +1,353 @@
+
+/** gallery-details **/
+
+.gallery-details{
+  position: relative;
+}
+
+.gallery-details-content .upper-image{
+  position: relative;
+  display: block;
+  margin-bottom: 22px;
+}
+
+.gallery-details-content .upper-image .image{
+  position: relative;
+  display: block;
+}
+
+.gallery-details-content .upper-image .image img{
+  width: 100%;
+}
+
+.gallery-details-content .upper-image .category{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  padding: 5px 26px;
+  border-radius: 40px;
+  text-align: center;
+  z-index: 1;
+}
+
+.gallery-details-content .content-box{
+  position: relative;
+  max-width: 860px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-details-content .content-box .date{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 13px;
+}
+
+.gallery-details-content .content-box h2{
+  display: block;
+  font-size: 52px;
+  line-height: 60px;
+  padding-bottom: 19px;
+  margin-bottom: 23px;
+  border-bottom: 1px solid #1B1B1B;
+}
+
+.gallery-details-content .content-box .two-column p{
+  margin-bottom: 30px;
+}
+
+.gallery-details-content .content-box .two-column .list-item li{
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.gallery-details-content .content-box .two-column .list-item li:last-child{
+  margin-bottom: 0px;
+}
+
+.gallery-details-content .content-box .two-column .list-item li span{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.gallery-details-content .content-box .two-column .list-item li h4{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.gallery-details-content .content-box .two-column .list-item li h4 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.gallery-details-content .content-box .two-column .list-item li h4 a:hover{
+
+}
+
+.gallery-details-content .content-box .two-image .image-box{
+  position: relative;
+  display: block;
+}
+
+.gallery-details-content .content-box .two-image .image-box img{
+  width: 100%;
+}
+
+.gallery-details-content .content-box .content-one p{
+  margin-bottom: 30px;
+}
+
+.gallery-details-content .content-box .content-one .list-item li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 44px;
+  padding-left: 35px;
+}
+
+.gallery-details-content .content-box .content-one .list-item li:before{
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  background-image: url(../../images/icons/icon-32.png);
+  background-repeat: no-repeat;
+}
+
+.gallery-details-content .content-box .content-one{
+  border-bottom: 1px solid #1B1B1B;
+}
+
+.gallery-details-content .content-box .content-two h3{
+  position: relative;
+  display: block;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 13px;
+}
+
+.gallery-details-content .content-box .content-two p{
+  margin-bottom: 25px;
+}
+
+.gallery-details-content .content-box .content-two p:last-child{
+  margin-bottom: 0px;
+}
+
+.gallery-details-content .content-box .content-three .single-item{
+  position: relative;
+  float: left;
+  width: 33.333%;
+}
+
+.gallery-details-content .content-box .content-three .list-one li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 40px;
+  font-family: var(--title-font);
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.gallery-details-content .content-box .content-three .list-two li{
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.gallery-details-content .nav-btn-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-details-content .nav-btn-box .single-btn{
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  border: 1px solid #1B1B1B;
+  border-radius: 50%;
+  padding: 12px;
+  transition: all 500ms ease;
+}
+
+.gallery-details-content .nav-btn-box .single-btn:hover{
+
+}
+
+.gallery-details-content .nav-btn-box .single-btn .shape{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  -webkit-animation: service_hexagon 25s infinite linear;
+  -moz-animation: service_hexagon 25s infinite linear;
+  -o-animation: service_hexagon 25s infinite linear;
+  animation: service_hexagon 25s infinite linear;
+}
+
+.gallery-details-content .nav-btn-box .single-btn .shape:before{
+  position: absolute;
+  content: '';
+  left: 30px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #1B1B1B;
+  transition: all 500ms ease;
+}
+
+.gallery-details-content .nav-btn-box .single-btn:hover .shape:before{
+
+}
+
+.gallery-details-content .nav-btn-box .single-btn button{
+  position: relative;
+  display: inline-block;
+  width: 146px;
+  height: 146px;
+  line-height: 164px;
+  text-align: left;
+  font-size: 16px;
+  background: #1B1B1B;
+  color: #BABABA;
+  border-radius: 50%;
+  padding: 0px 40px;
+  transition: all 500ms ease;
+}
+
+.gallery-details-content .nav-btn-box .single-btn.prev-btn button{
+  text-align: right;
+}
+
+.gallery-details-content .nav-btn-box .single-btn button:hover{
+  
+}
+
+.gallery-details-content .nav-btn-box .single-btn button span{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.gallery-details-content .nav-btn-box .single-btn button span:before{
+  position: absolute;
+  content: '\e901';
+  font-family: 'icomoon';
+  font-size: 16px;
+  bottom: 23px;
+  transition: all 500ms ease;
+}
+
+.gallery-details-content .nav-btn-box .single-btn.next-btn button span:before{
+  right: 5px;
+}
+
+.gallery-details-content .nav-btn-box .single-btn.prev-btn button span:before{
+  left: 8px;
+  transform: rotate(-90deg);
+}
+
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .gallery-details{
+    padding: 70px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .gallery-details-content .content-box h2{
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 499px){
+  .gallery-details-content .content-box .content-three .single-item{
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .gallery-details-content .content-box .content-three .single-item:last-child{
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

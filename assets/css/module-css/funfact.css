@@ -1,0 +1,247 @@
+
+/** funfact-section **/
+
+.funfact-section{
+  position: relative;
+}
+
+.funfact-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  bottom: 54px;
+  width: 397px;
+  height: 816px;
+  background-repeat: no-repeat;
+}
+
+.funfact-section .image-box{
+  position: relative;
+  display: block;
+}
+
+.funfact-section .image-box img{
+  position: relative;
+  max-width: none;
+  float: right;
+}
+
+.funfact-block-one{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 306px;
+  height: 306px;
+  text-align: center;
+}
+
+.funfact-block-one .shape{
+  position: absolute;
+  left: 0px;
+  top: -19px;
+  width: 344px;
+  height: 344px;
+  background-repeat: no-repeat;
+  -webkit-animation: service_hexagon 25s infinite linear;
+  -moz-animation: service_hexagon 25s infinite linear;
+  -o-animation: service_hexagon 25s infinite linear;
+  animation: service_hexagon 25s infinite linear;
+  filter: grayscale(100%);
+  opacity: 0.1;
+  transition: all 500ms ease;
+}
+
+.funfact-block-one:hover .shape{
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.funfact-block-one:before{
+  position: absolute;
+  content: '';
+  width: 344px;
+  height: 344px;
+  border-radius: 50%;
+  border: 1px solid #1B1B1B;
+  left: 0px;
+  top: -19px;
+}
+
+.funfact-block:nth-child(3) .funfact-block-one .shape{
+  left: -19px;
+}
+
+.funfact-block:last-child .funfact-block-one .shape{
+  left: inherit;
+  right: 0px;
+}
+
+.funfact-block:nth-child(3) .funfact-block-one:before{
+  left: -19px;
+}
+
+.funfact-block:last-child .funfact-block-one:before{
+  left: inherit;
+  right: 0px;
+}
+
+.funfact-block-one .inner-box{
+  position: relative;
+}
+
+.funfact-block-one .count-outer{
+  position: relative;
+  display: block;
+  font-size: 82px;
+  line-height: 61px;
+  color: #fff;
+  margin-bottom: 23px;
+}
+
+.funfact-block-one .count-outer .symble{
+  position: relative;
+  display: inline-block;
+  font-size: 32px;
+}
+
+.funfact-block-one h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 22px;
+}
+
+.funfact-block-one p{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 2px 29px;
+  border-radius: 30px;
+  border: 1px solid #1B1B1B;
+  transition: all 500ms ease;
+}
+
+.funfact-block-one:hover p{
+  opacity: 0;
+}
+
+.funfact-block-one .clients-list{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  left: 0px;
+  bottom: -8px;
+  transform: scale(0,0);
+  transition: all 500ms ease;
+}
+
+.funfact-block-one:hover .clients-list{
+  transform: scale(1,1);
+}
+
+.funfact-block-one .clients-list li{
+  position: relative;
+  display: inline-block;
+  border: 2px solid #1B1B1B;
+  margin: 0px -9px;
+  border-radius: 50%;
+}
+
+.funfact-block-one .clients-list li span{
+  position: relative;
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .funfact-block-one:before,
+  .funfact-block-one .shape{
+    display: none;
+  }
+
+  .funfact-section .pattern-layer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px){
+
+  .funfact-section .image-box img{
+    float: none;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .funfact-block-one{
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

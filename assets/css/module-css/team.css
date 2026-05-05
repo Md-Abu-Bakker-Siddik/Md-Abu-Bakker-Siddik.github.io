@@ -1,0 +1,166 @@
+
+/** team-section **/
+
+.team-section{
+  position: relative;
+}
+
+.team-block-one{
+  position: relative;
+  max-width: 306px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.team-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+}
+
+.team-block-one .inner-box .image-box .image{
+  position: relative;
+  display: block;
+}
+
+.team-block-one .inner-box .image-box .image img{
+  width: 100%;
+}
+
+.team-block-one .inner-box .image-box .social-links{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.team-block-one .inner-box .image-box .social-links li{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.team-block-one .inner-box .image-box .social-links li:last-child{
+  margin-bottom: 0px;
+}
+
+.team-block-one .inner-box .image-box .social-links li a{
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 16px;
+  color: var(--text-color);
+  background: #1B1B1B;
+  border-radius: 10px;
+}
+
+.team-block-one .inner-box .image-box .social-links li a:hover{
+  color: #fff;
+}
+
+.team-block-one .inner-box .lower-content{
+  position: relative;
+  display: block;
+  padding-top: 26px;
+}
+
+.team-block-one .inner-box .lower-content h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+.team-block-one .inner-box .lower-content h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.team-block-one .inner-box .lower-content h3 a:hover{
+
+}
+
+.team-block-one .inner-box .lower-content .designation{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .team-section{
+    padding: 60px 0px 35px 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,239 @@
+
+/** page-title **/
+
+.page-title{
+  position: relative;
+  background: #1B1B1B;
+  padding: 250px 0px 150px 0px;
+  overflow: hidden;
+}
+
+.page-title h1{
+  position: relative;
+  display: block;
+  font-size: 52px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.page-title .bread-crumb{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.page-title .bread-crumb:before{
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  left: 0px;
+  top: 8px;
+  border-radius: 50%;
+}
+
+.page-title .bread-crumb li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: rgba(186, 186, 186, 0.60);
+  padding-right: 10px;
+  margin-right: 7px;
+}
+
+.page-title .bread-crumb li:last-child{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.page-title .bread-crumb li a{
+  display: inline-block;
+  color: #fff;
+}
+
+.page-title .bread-crumb li a:hover{
+
+}
+
+.page-title .bread-crumb li:before{
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 1px;
+  height: 12px;
+  top: 7px;
+  right: 0px;
+  transform: rotate(15deg);
+}
+
+.page-title .bread-crumb li:last-child:before{
+  display: none;
+}
+
+.page-title .pattern-layer .pattern-1{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 317px;
+  height: 274px;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.page-title .pattern-layer .pattern-2{
+  position: absolute;
+  left: 45px;
+  bottom: 0px;
+  width: 326px;
+  height: 103px;
+  background-repeat: no-repeat;
+}
+
+.page-title .pattern-layer .pattern-3{
+  position: absolute;
+  width: 150px;
+  height: 56px;
+  left: 245px;
+  top: 230px;
+  background-repeat: no-repeat;
+}
+
+.page-title .pattern-layer .pattern-4{
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  width: 200px;
+  height: 88px;
+  background-repeat: no-repeat;
+}
+
+.page-title .pattern-layer .pattern-5{
+  position: absolute;
+  left: 46%;
+  top: 165px;
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  -webkit-animation: zoom-fade 4s infinite linear;
+  animation: zoom-fade 4s infinite linear;
+}
+
+.page-title .pattern-layer .pattern-6{
+  position: absolute;
+  left: 50%;
+  bottom: 107px;
+  width: 40px;
+  height: 37px;
+  background-repeat: no-repeat;
+}
+
+.page-title .pattern-layer .pattern-7{
+  position: absolute;
+  right: 330px;
+  bottom: 185px;
+  width: 39px;
+  height: 41px;
+  background-repeat: no-repeat;
+}
+
+.page-title .pattern-layer .pattern-8{
+  position: absolute;
+  right: 0px;
+  bottom: 180px;
+  width: 121px;
+  height: 157px;
+  background-repeat: no-repeat;
+}
+
+.page-title .inner-box{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-title .curve-text{
+  background: transparent;
+}
+
+
+/** rtl-css **/
+
+
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+
+@media only screen and (max-width: 767px){
+  .page-title .pattern-layer{
+    display: none;
+  }
+
+  .page-title{
+    padding: 150px 0px 50px 0px;
+  }
+
+  .page-title h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .page-title .inner-box{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
