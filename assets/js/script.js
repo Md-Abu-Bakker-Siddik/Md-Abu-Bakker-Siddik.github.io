@@ -248,34 +248,25 @@
 	}
 
 
-	// two-item-carousel
-	if ($('.two-item-carousel').length) {
-		$('.two-item-carousel').owlCarousel({
-			loop:true,
-			margin:30,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 1000,
-			navText: [ '<span class="icon-6"></span>', '<span class="icon-7"></span>' ],
+	// experience carousel (homepage Experience section — two cards desktop, smooth autoplay)
+	if ($('.experience-carousel').length) {
+		$('.experience-carousel').owlCarousel({
+			loop: true,
+			margin: 30,
+			nav: false,
+			dots: true,
+			smartSpeed: 600,
+			autoplay: true,
+			autoplayTimeout: 6500,
+			autoplayHoverPause: true,
 			responsive:{
-				0:{
-					items:1
-				},
-				480:{
-					items:1
-				},
-				600:{
-					items:1
-				},
-				800:{
-					items:2
-				},			
-				1200:{
-					items:2
-				}
-
+				0:{ items: 1 },
+				480:{ items: 1 },
+				600:{ items: 1 },
+				800:{ items: 2 },
+				1200:{ items: 2 }
 			}
-		});    		
+		});
 	}
 
 
