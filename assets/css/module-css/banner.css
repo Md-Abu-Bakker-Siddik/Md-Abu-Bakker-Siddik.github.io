@@ -62,6 +62,16 @@
   border-radius: 10px;
 }
 
+/* Hero banner: full-width, natural height — no crop or max-height cap */
+.banner-section .image-box .hero-banner-photo img{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: unset;
+  object-position: unset;
+}
+
 .banner-section .curve-text{
   position: absolute;
   left: -85px;
