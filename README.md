@@ -15,7 +15,3 @@ Single-page portfolio for GitHub Pages.
 ```bash
 npx sass assets/scss/main.scss assets/css/main.css
 ```
-
-## Legacy URLs
-
-`portfolio.html`, `portfolio1–4.html`, and `contact.html` redirect to sections on `index.html`.

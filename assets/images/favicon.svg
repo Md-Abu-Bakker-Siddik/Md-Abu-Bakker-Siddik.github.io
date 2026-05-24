@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="ABS">
+  <rect width="32" height="32" rx="10" fill="rgba(34, 211, 238, 0.12)"/>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="9.5" fill="none" stroke="rgba(255, 255, 255, 0.06)" stroke-width="1"/>
+  <text x="16" y="20" text-anchor="middle" font-family="ui-monospace, 'Fira Code', Consolas, monospace" font-size="8.5" font-weight="500" letter-spacing="0.4" fill="#22d3ee">ABS</text>
+</svg>

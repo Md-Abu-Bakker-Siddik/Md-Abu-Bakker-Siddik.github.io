@@ -1,5 +1,5 @@
 /**
- * ThemeForest / premium theme live demos — migrated from portfolio.html–portfolio4.html
+ * ThemeForest / premium theme live demos
  */
 window.THEME_DEMOS = [
   { name: "Stratify", url: "https://dev243.kodesolution.com/stratify/", image: "assets/images/project/stratify.jpg" },
@@ -49,5 +49,24 @@ window.THEME_DEMOS = [
   { name: "Lebulid", url: "https://z.commonsupport.com/lebulid/", image: "assets/images/project/lebulid.jpg" },
   { name: "Cloven", url: "https://old4.commonsupport.com/cloven/", image: "assets/images/project/cloven.jpg" },
   { name: "Morris", url: "https://d.commonsupport.com/morris/", image: "assets/images/project/morris.jpg" },
-  { name: "Easton", url: "https://23july.hostlin.com/easton/", image: "assets/images/project/easton.jpg" }
+  { name: "Easton", url: "https://23july.hostlin.com/easton/", image: "assets/images/project/easton.jpg" },
+  { name: "Abogada", url: "https://dev243.kodesolution.com/abogada/", image: "assets/images/project/abogada.jpg" },
+  { name: "Agencyo", url: "https://dev253.kodesolution.com/agencyo/", image: "assets/images/project/agencyo.jpg" },
+  { name: "Hotelin", url: "https://dev253.kodesolution.com/hotelin/", image: "assets/images/project/hotelin.jpg" },
+  { name: "Yogana", url: "https://dev254.kodesolution.com/yogana/", image: "assets/images/project/yogana.jpg" },
+  { name: "Archinest", url: "https://dev254.kodesolution.com/archinest/", image: "assets/images/project/archinest.jpg" },
+  { name: "Structive", url: "https://dev254.kodesolution.com/structive/", image: "assets/images/project/structive.jpg" },
+  { name: "Weddingo", url: "https://dev253.kodesolution.com/weddingo/", image: "assets/images/project/weddingo.jpg" },
+  { name: "Aurex", url: "https://dev255.kodesolution.com/aurex/", image: "assets/images/project/aurex.jpg" },
+  { name: "Ecovera", url: "https://dev255.kodesolution.com/ecovera/", image: "assets/images/project/ecovera.jpg" },
+  { name: "Coolex", url: "https://dev255.kodesolution.com/coolex/", image: "assets/images/project/coolex.jpg" },
+  { name: "Landspire", url: "https://dev256.kodesolution.com/landspire/", image: "assets/images/project/landspire.jpg" },
+  { name: "Realexa", url: "https://dev261.kodesolution.com/realexa/", image: "assets/images/project/realexa.jpg" },
+  { name: "Creovio", url: "https://dev261.kodesolution.com/creovio/", image: "assets/images/project/creovio.jpg" },
+  { name: "Rebort", url: "https://dev261.kodesolution.com/rebort/", image: "assets/images/project/rebort.jpg" },
+  { name: "Finora", url: "https://dev262.kodesolution.com/finora/", image: "assets/images/project/finora.jpg" },
+  { name: "Hotelon", url: "https://dev262.kodesolution.com/hotelon/", image: "assets/images/project/hotelon.jpg" },
+  { name: "Hempress", url: "https://dev262.kodesolution.com/hempress/", image: "assets/images/project/hempress.jpg" },
+  { name: "Solarixia", url: "https://dev263.kodesolution.com/solarixia/", image: "assets/images/project/solarixia.jpg" },
+  { name: "Lexicon", url: "https://dev264.kodesolution.com/lexicon/", image: "assets/images/project/lexicon.jpg" }
 ];
