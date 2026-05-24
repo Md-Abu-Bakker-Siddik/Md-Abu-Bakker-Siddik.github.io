@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1c1917"/>
+      <stop offset="100%" style="stop-color:#292524"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="200" y="120" width="400" height="260" rx="8" fill="#0c0a09" stroke="#22d3ee" stroke-width="1.5"/>
+  <rect x="230" y="160" width="340" height="10" rx="3" fill="#44403c"/>
+  <rect x="230" y="185" width="300" height="8" rx="3" fill="#57534e"/>
+  <rect x="230" y="210" width="320" height="8" rx="3" fill="#57534e"/>
+  <rect x="230" y="260" width="200" height="28" rx="6" fill="#22d3ee" opacity="0.25" stroke="#22d3ee"/>
+  <text x="330" y="280" fill="#22d3ee" font-family="system-ui,sans-serif" font-size="12">Tone hint</text>
+  <text x="400" y="450" text-anchor="middle" fill="#a8a29e" font-family="system-ui,sans-serif" font-size="14" letter-spacing="3">SIDDIK TONE HINTS</text>
+</svg>

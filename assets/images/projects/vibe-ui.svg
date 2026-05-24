@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e1b4b"/>
+      <stop offset="50%" style="stop-color:#312e81"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <rect x="180" y="100" width="440" height="300" rx="16" fill="#0f0f14" stroke="#a78bfa" stroke-width="2"/>
+  <rect x="210" y="130" width="380" height="180" rx="8" fill="#1a1a24"/>
+  <text x="240" y="175" fill="#c4b5fd" font-family="monospace" font-size="13">&lt;Button className="..."&gt;</text>
+  <rect x="240" y="200" width="100" height="32" rx="6" fill="#7c3aed"/>
+  <rect x="210" y="330" width="120" height="40" rx="8" fill="#22d3ee" opacity="0.7"/>
+  <text x="400" y="450" text-anchor="middle" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="14" letter-spacing="4">VIBE UI SAAS</text>
+</svg>

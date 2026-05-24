@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="560" viewBox="0 0 880 560">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="560" fill="url(#bg)"/>
+  <rect x="0" y="0" width="880" height="560" fill="url(#accent)"/>
+  <rect x="120" y="90" width="640" height="380" rx="14" fill="#111827" stroke="#22d3ee" stroke-width="2"/>
+  <rect x="150" y="120" width="580" height="36" rx="6" fill="#1f2937"/>
+  <circle cx="172" cy="138" r="6" fill="#22d3ee"/>
+  <circle cx="192" cy="138" r="6" fill="#34d399"/>
+  <circle cx="212" cy="138" r="6" fill="#64748b"/>
+  <rect x="150" y="180" width="260" height="250" rx="8" fill="#0b1220" stroke="#1e293b"/>
+  <rect x="430" y="180" width="300" height="18" rx="4" fill="#334155"/>
+  <rect x="430" y="215" width="260" height="12" rx="3" fill="#475569"/>
+  <rect x="430" y="240" width="280" height="12" rx="3" fill="#475569"/>
+  <rect x="430" y="290" width="120" height="38" rx="8" fill="#22d3ee" opacity="0.85"/>
+  <text x="440" y="490" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="13" letter-spacing="6">THEMEFOREST THEMES</text>
+</svg>

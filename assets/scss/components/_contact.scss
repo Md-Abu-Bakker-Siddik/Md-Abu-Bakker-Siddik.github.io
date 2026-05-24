@@ -1,0 +1,130 @@
+.contact-grid {
+  display: grid;
+  gap: var(--space-2xl);
+
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr 1.1fr;
+    gap: var(--space-3xl);
+  }
+}
+
+.contact-info {
+  &__item {
+    display: flex;
+    gap: var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    color: var(--color-accent);
+    font-size: 1rem;
+  }
+
+  &__label {
+    font-size: 0.75rem;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
+    margin-bottom: 0.25rem;
+  }
+
+  &__value {
+    font-size: 1rem;
+    color: var(--color-text-strong);
+
+    a:hover {
+      color: var(--color-accent);
+    }
+  }
+}
+
+.contact-form {
+  padding: var(--space-xl);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  &__group {
+    margin-bottom: var(--space-lg);
+  }
+
+  &__label {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-strong);
+    margin-bottom: 0.5rem;
+  }
+
+  &__input,
+  &__textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--duration-fast) var(--ease-out);
+
+    &::placeholder {
+      color: var(--color-text-muted);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: var(--color-accent);
+    }
+  }
+
+  &__textarea {
+    min-height: 8rem;
+    resize: vertical;
+  }
+
+  &__note {
+    margin-top: var(--space-md);
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+}
+
+.social-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: var(--space-xl);
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text);
+    transition:
+      color var(--duration-fast) var(--ease-out),
+      border-color var(--duration-fast) var(--ease-out),
+      background var(--duration-fast) var(--ease-out);
+
+    &:hover {
+      color: var(--color-accent);
+      border-color: var(--color-border-hover);
+      background: var(--color-accent-dim);
+    }
+
+    svg {
+      width: 1.125rem;
+      height: 1.125rem;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0.625rem 1.25rem;
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-md);
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    background var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &--primary {
+    background: var(--color-accent);
+    color: var(--color-bg-deep);
+
+    &:hover {
+      box-shadow: 0 0 24px var(--color-accent-glow);
+    }
+  }
+
+  &--outline {
+    border: 1px solid var(--color-border);
+    color: var(--color-text-strong);
+
+    &:hover {
+      border-color: var(--color-border-hover);
+      color: var(--color-accent);
+    }
+  }
+
+  &--ghost {
+    color: var(--color-text-strong);
+    padding-inline: 0.5rem;
+
+    &:hover {
+      color: var(--color-accent);
+    }
+  }
+
+  &__icon {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+  }
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
