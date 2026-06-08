@@ -2,6 +2,11 @@
  * ThemeForest / premium theme live demos
  */
 window.THEME_DEMOS = [
+  { name: "Softox", url: "https://dev254.kodesolution.com/softox/software/", image: "assets/images/project/softox.jpg" },
+  { name: "Consulten", url: "https://dev262.kodesolution.com/consulten/", image: "assets/images/project/consulten.jpg" },
+  { name: "Digitos", url: "https://dev262.kodesolution.com/digitos/", image: "assets/images/project/digitos.jpg" },
+  { name: "Digilink", url: "https://dev262.kodesolution.com/digilink/", image: "assets/images/project/digilink.jpg" },
+  { name: "Finora", url: "https://dev262.kodesolution.com/finora/", image: "assets/images/project/finora.jpg" },
   { name: "Stratify", url: "https://dev243.kodesolution.com/stratify/", image: "assets/images/project/stratify.jpg" },
   { name: "Innovatek", url: "https://dev243.kodesolution.com/innovatek/", image: "assets/images/project/innovatek.jpg" },
   { name: "Interiox", url: "https://dev251.kodesolution.com/interiox/", image: "assets/images/project/interiox.jpg" },
@@ -64,7 +69,6 @@ window.THEME_DEMOS = [
   { name: "Realexa", url: "https://dev261.kodesolution.com/realexa/", image: "assets/images/project/realexa.jpg" },
   { name: "Creovio", url: "https://dev261.kodesolution.com/creovio/", image: "assets/images/project/creovio.jpg" },
   { name: "Rebort", url: "https://dev261.kodesolution.com/rebort/", image: "assets/images/project/rebort.jpg" },
-  { name: "Finora", url: "https://dev262.kodesolution.com/finora/", image: "assets/images/project/finora.jpg" },
   { name: "Hotelon", url: "https://dev262.kodesolution.com/hotelon/", image: "assets/images/project/hotelon.jpg" },
   { name: "Hempress", url: "https://dev262.kodesolution.com/hempress/", image: "assets/images/project/hempress.jpg" },
   { name: "Solarixia", url: "https://dev263.kodesolution.com/solarixia/", image: "assets/images/project/solarixia.jpg" },
