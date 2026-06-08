@@ -619,12 +619,100 @@ textarea {
   font-weight: 600;
 }
 
+/* Shared animated border on card hover */
+.stat-card,
+.skill-card,
+.career-org,
+.project-card,
+.experience-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.stat-card::before,
+.skill-card::before,
+.career-org::before,
+.project-card::before,
+.experience-card::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220%;
+  height: 220%;
+  transform: translate(-50%, -50%);
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    transparent 250deg,
+    var(--color-accent) 285deg,
+    var(--color-accent-secondary) 315deg,
+    transparent 360deg
+  );
+  opacity: 0;
+  transition: opacity 0.45s var(--ease-out);
+  animation: card-border-spin 2.8s linear infinite;
+  animation-play-state: paused;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stat-card::after,
+.skill-card::after,
+.career-org::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: calc(var(--radius-lg) - 1px);
+  background: var(--color-bg-card);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stat-card:hover::before,
+.skill-card:hover::before,
+.career-org:hover::before,
+.project-card:hover::before,
+.experience-card:hover::before {
+  opacity: 1;
+  animation-play-state: running;
+}
+
+.stat-card > *,
+.skill-card > *,
+.career-org > *,
+.project-card > *,
+.experience-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes card-border-spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stat-card::before,
+  .skill-card::before,
+  .career-org::before,
+  .project-card::before,
+  .experience-card::before {
+    animation: none;
+  }
+}
+
 .stat-card {
   padding: var(--space-lg);
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  transition: border-color var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out);
+  transition: border-color var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
 }
 .stat-card:hover {
   border-color: var(--color-border-hover);
@@ -756,6 +844,7 @@ textarea {
   padding: var(--space-xl);
   transition: border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
 }
+
 .career-org:hover {
   border-color: var(--color-border-hover);
   box-shadow: var(--shadow-glow);
@@ -893,10 +982,10 @@ textarea {
 .experience-card {
   display: grid;
   gap: 0;
+  padding: 1px;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
   transition: border-color var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
 }
 .experience-card:hover {
@@ -1078,10 +1167,10 @@ textarea {
 .project-card {
   display: flex;
   flex-direction: column;
+  padding: 1px;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
   transition: border-color var(--duration-normal) var(--ease-out), transform var(--duration-normal) var(--ease-out), box-shadow var(--duration-normal) var(--ease-out);
   opacity: 1;
   transform: scale(1);
@@ -1099,6 +1188,7 @@ textarea {
   aspect-ratio: 16/10;
   background: var(--color-bg-elevated);
   overflow: hidden;
+  border-radius: calc(var(--radius-lg) - 1px) calc(var(--radius-lg) - 1px) 0 0;
 }
 .project-card__thumb img {
   width: 100%;
@@ -1122,6 +1212,8 @@ textarea {
   flex-direction: column;
   flex: 1;
   padding: var(--space-lg);
+  background: var(--color-bg-card);
+  border-radius: 0 0 calc(var(--radius-lg) - 1px) calc(var(--radius-lg) - 1px);
 }
 .project-card__category {
   font-family: var(--font-mono);
