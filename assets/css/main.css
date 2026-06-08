@@ -1311,15 +1311,48 @@ textarea {
   margin-top: var(--space-2xl);
 }
 
+#expertise .section-header--compact {
+  margin-bottom: var(--space-2xl);
+}
+
 .expertise-grid {
   display: grid;
-  gap: var(--space-2xl);
+  gap: var(--space-xl);
+  align-items: stretch;
 }
 @media (min-width: 992px) {
   .expertise-grid {
     grid-template-columns: 1fr 1fr;
-    align-items: start;
+    gap: var(--space-2xl);
   }
+}
+
+.expertise-visual {
+  margin: 0;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.expertise-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 14rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+#expertise .value-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#expertise .value-item:first-child {
+  padding-top: 0;
 }
 
 .contact-grid {
