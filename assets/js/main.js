@@ -55,7 +55,10 @@
       return theme && themeVisible;
     }
     if (filter === "wordpress") {
-      return cats.indexOf("wordpress") !== -1 && (!theme || themeVisible);
+      return theme && themeVisible;
+    }
+    if (filter === "plugins") {
+      return cats.indexOf("plugins") !== -1;
     }
     return cats.indexOf(filter) !== -1;
   }
