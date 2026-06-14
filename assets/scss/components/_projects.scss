@@ -225,10 +225,60 @@
 
 .expertise-grid {
   display: grid;
-  gap: var(--space-2xl);
+  gap: var(--space-xl);
 
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
-    align-items: start;
+    column-gap: var(--space-3xl);
+    row-gap: var(--space-2xl);
+    align-items: stretch;
+  }
+
+  &__header {
+    margin-bottom: 0;
+
+    @media (min-width: 992px) {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .value-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    @media (min-width: 992px) {
+      justify-content: space-between;
+    }
+  }
+
+  .value-item:first-child {
+    padding-top: 0;
+  }
+}
+
+.expertise-visual {
+  margin: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-elevated);
+
+  @media (min-width: 992px) {
+    height: 100%;
+    min-height: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+
+    @media (min-width: 992px) {
+      height: 100%;
+      aspect-ratio: unset;
+    }
   }
 }
