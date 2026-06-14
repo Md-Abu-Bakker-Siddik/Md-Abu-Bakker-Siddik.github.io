@@ -21,8 +21,8 @@
   var filterBtns = document.querySelectorAll(".filter-tabs__btn");
 
   var currentFilter = "all";
-  var themesVisibleLimit = 12;
-  var themesPerPage = 12;
+  var projectsVisibleLimit = 6;
+  var projectsPerPage = 6;
   var themeFallbackImage =
     "assets/images/banner/hero-developer-workstation.jpeg";
 
@@ -34,28 +34,15 @@
     return document.querySelectorAll(".project-card");
   }
 
-  function isThemeCard(card) {
+  function cardMatchesCategory(card, filter) {
     var cats = (card.getAttribute("data-category") || "").split(" ");
-    return cats.indexOf("themes") !== -1;
-  }
-
-  function getThemeIndex(card) {
-    return parseInt(card.getAttribute("data-theme-index") || "0", 10);
-  }
-
-  function cardMatchesFilter(card, filter) {
-    var cats = (card.getAttribute("data-category") || "").split(" ");
-    var theme = isThemeCard(card);
-    var themeVisible = getThemeIndex(card) < themesVisibleLimit;
+    var isTheme = cats.indexOf("themes") !== -1;
 
     if (filter === "all") {
-      return !theme || themeVisible;
+      return true;
     }
-    if (filter === "themes") {
-      return theme && themeVisible;
-    }
-    if (filter === "wordpress") {
-      return theme && themeVisible;
+    if (filter === "themes" || filter === "wordpress") {
+      return isTheme;
     }
     if (filter === "plugins") {
       return cats.indexOf("plugins") !== -1;
@@ -63,24 +50,39 @@
     return cats.indexOf(filter) !== -1;
   }
 
+  function countMatchingCards(filter) {
+    var count = 0;
+    getProjectCards().forEach(function (card) {
+      if (cardMatchesCategory(card, filter)) {
+        count++;
+      }
+    });
+    return count;
+  }
+
   function updateLoadMoreButton() {
-    if (!themesLoadMoreWrap || !window.THEME_DEMOS) return;
+    if (!themesLoadMoreWrap) return;
 
-    var total = window.THEME_DEMOS.length;
-    var paginatedFilter =
-      currentFilter === "all" ||
-      currentFilter === "themes" ||
-      currentFilter === "wordpress";
-
-    themesLoadMoreWrap.hidden =
-      !paginatedFilter || themesVisibleLimit >= total;
+    var total = countMatchingCards(currentFilter);
+    themesLoadMoreWrap.hidden = projectsVisibleLimit >= total;
   }
 
   function applyFilter(filter) {
     currentFilter = filter;
+    var visibleCount = 0;
 
     getProjectCards().forEach(function (card) {
-      card.classList.toggle("is-hidden", !cardMatchesFilter(card, filter));
+      if (!cardMatchesCategory(card, filter)) {
+        card.classList.add("is-hidden");
+        return;
+      }
+
+      if (visibleCount < projectsVisibleLimit) {
+        card.classList.remove("is-hidden");
+        visibleCount++;
+      } else {
+        card.classList.add("is-hidden");
+      }
     });
 
     updateLoadMoreButton();
@@ -264,13 +266,14 @@
         b.setAttribute("aria-selected", active ? "true" : "false");
       });
 
+      projectsVisibleLimit = 6;
       applyFilter(filter);
     });
   });
 
   if (themesLoadMoreBtn) {
     themesLoadMoreBtn.addEventListener("click", function () {
-      themesVisibleLimit += themesPerPage;
+      projectsVisibleLimit += projectsPerPage;
       applyFilter(currentFilter);
     });
   }
