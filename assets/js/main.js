@@ -13,6 +13,14 @@
   var projectsGrid = document.getElementById("projects-grid");
   var themesLoadMoreWrap = document.getElementById("themes-load-more-wrap");
   var themesLoadMoreBtn = document.getElementById("themes-load-more-btn");
+  var whatsappPanel = document.getElementById("whatsapp-panel");
+  var whatsappToggle = document.getElementById("whatsapp-toggle");
+  var whatsappClose = document.getElementById("whatsapp-close");
+  var whatsappForm = document.getElementById("whatsapp-form");
+  var whatsappInput = document.getElementById("whatsapp-input");
+  var whatsappMessages = document.getElementById("whatsapp-messages");
+  var whatsappQuickBtns = document.querySelectorAll(".whatsapp-widget__quick-btn");
+  var WHATSAPP_NUMBER = "8801911500125";
 
   var navLinks = document.querySelectorAll(
     ".site-nav__link, .mobile-nav__link"
@@ -229,7 +237,82 @@
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") {
       closeMobileNav();
+      closeWhatsappPanel();
     }
+  });
+
+  function openWhatsappPanel() {
+    if (!whatsappPanel || !whatsappToggle) return;
+    whatsappPanel.classList.add("is-open");
+    whatsappPanel.setAttribute("aria-hidden", "false");
+    whatsappToggle.setAttribute("aria-expanded", "true");
+    if (whatsappInput) {
+      window.setTimeout(function () {
+        whatsappInput.focus();
+      }, 150);
+    }
+  }
+
+  function closeWhatsappPanel() {
+    if (!whatsappPanel || !whatsappToggle) return;
+    whatsappPanel.classList.remove("is-open");
+    whatsappPanel.setAttribute("aria-hidden", "true");
+    whatsappToggle.setAttribute("aria-expanded", "false");
+  }
+
+  function appendWhatsappBubble(text, type) {
+    if (!whatsappMessages) return;
+
+    var bubble = document.createElement("p");
+    bubble.className =
+      "whatsapp-widget__bubble whatsapp-widget__bubble--" + (type || "user");
+    bubble.textContent = text;
+    whatsappMessages.appendChild(bubble);
+    whatsappMessages.scrollTop = whatsappMessages.scrollHeight;
+  }
+
+  function sendWhatsappMessage(message) {
+    var text = (message || (whatsappInput ? whatsappInput.value : "")).trim();
+    if (!text) return;
+
+    appendWhatsappBubble(text, "user");
+    if (whatsappInput) {
+      whatsappInput.value = "";
+    }
+
+    var url =
+      "https://wa.me/" +
+      WHATSAPP_NUMBER +
+      "?text=" +
+      encodeURIComponent(text);
+    window.open(url, "_blank", "noopener,noreferrer");
+  }
+
+  if (whatsappToggle) {
+    whatsappToggle.addEventListener("click", function () {
+      if (whatsappPanel && whatsappPanel.classList.contains("is-open")) {
+        closeWhatsappPanel();
+      } else {
+        openWhatsappPanel();
+      }
+    });
+  }
+
+  if (whatsappClose) {
+    whatsappClose.addEventListener("click", closeWhatsappPanel);
+  }
+
+  if (whatsappForm) {
+    whatsappForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      sendWhatsappMessage();
+    });
+  }
+
+  whatsappQuickBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      sendWhatsappMessage(btn.getAttribute("data-message") || "");
+    });
   });
 
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
