@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e1065"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <line x1="400" y1="240" x2="270" y2="150" stroke="#4c1d95" stroke-width="4"/>
+  <line x1="400" y1="240" x2="530" y2="150" stroke="#4c1d95" stroke-width="4"/>
+  <line x1="400" y1="240" x2="250" y2="320" stroke="#4c1d95" stroke-width="4"/>
+  <line x1="400" y1="240" x2="550" y2="320" stroke="#4c1d95" stroke-width="4"/>
+  <circle cx="400" cy="240" r="34" fill="#a78bfa"/>
+  <circle cx="270" cy="150" r="18" fill="#f472b6"/>
+  <circle cx="530" cy="150" r="18" fill="#f59e0b"/>
+  <circle cx="250" cy="320" r="18" fill="#22d3ee"/>
+  <circle cx="550" cy="320" r="18" fill="#34d399"/>
+  <text x="400" y="450" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="14" letter-spacing="4">OWAMBE CONNECT</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#042f2e"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <line x1="230" y1="250" x2="570" y2="250" stroke="#134e4a" stroke-width="6"/>
+  <line x1="315" y1="230" x2="315" y2="192" stroke="#134e4a" stroke-width="5"/>
+  <line x1="485" y1="270" x2="485" y2="308" stroke="#134e4a" stroke-width="5"/>
+  <circle cx="230" cy="250" r="26" fill="#2dd4bf"/>
+  <circle cx="315" cy="250" r="20" fill="#34d399"/>
+  <circle cx="400" cy="250" r="30" fill="#22d3ee"/>
+  <circle cx="485" cy="250" r="20" fill="#34d399"/>
+  <circle cx="570" cy="250" r="26" fill="#2dd4bf"/>
+  <circle cx="315" cy="180" r="12" fill="#0ea5e9"/>
+  <circle cx="485" cy="320" r="12" fill="#0ea5e9"/>
+  <text x="400" y="450" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="14" letter-spacing="4">PURATEK PEPTIDES</text>
+</svg>

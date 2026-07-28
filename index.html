@@ -395,11 +395,12 @@
         <header class="section-header section-header--center">
           <span class="section-eyebrow">Portfolio</span>
           <h2 class="section-title">Featured projects</h2>
-          <p class="section-desc">Open source, SaaS, plugins, and 100+ premium ThemeForest theme demos—filter by category.</p>
+          <p class="section-desc">Client websites, open source, SaaS, plugins, and 100+ premium ThemeForest theme demos—filter by category.</p>
         </header>
 
         <div class="filter-tabs" role="tablist" aria-label="Filter projects">
           <button type="button" class="filter-tabs__btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button type="button" class="filter-tabs__btn" data-filter="websites" role="tab" aria-selected="false">Websites</button>
           <button type="button" class="filter-tabs__btn" data-filter="themes" role="tab" aria-selected="false">Themes</button>
           <button type="button" class="filter-tabs__btn" data-filter="plugins" role="tab" aria-selected="false">Plugins</button>
           <button type="button" class="filter-tabs__btn" data-filter="wordpress" role="tab" aria-selected="false">WordPress</button>
@@ -408,6 +409,44 @@
         </div>
 
         <div class="projects-grid" id="projects-grid">
+          <article class="project-card" data-category="websites wordpress plugins">
+            <div class="project-card__thumb">
+              <img src="assets/images/projects/puratek-peptides.svg" alt="Puratek Peptides — WooCommerce research peptides store" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Client Site · WooCommerce</span>
+              <h3 class="project-card__title">Puratek Peptides</h3>
+              <p class="project-card__desc">E-commerce store for lab-tested research peptides—WooCommerce storefront with custom product presentation, purity/lab-report highlights, and conversion-focused shopping flow.</p>
+              <ul class="project-card__tags">
+                <li><span class="tag">WooCommerce</span></li>
+                <li><span class="tag">WordPress</span></li>
+                <li><span class="tag">E-commerce</span></li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://puratekpeptides.com/" class="project-card__link project-card__link--primary" target="_blank" rel="noopener noreferrer">Live site</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="websites wordpress plugins">
+            <div class="project-card__thumb">
+              <img src="assets/images/projects/owambe-connect.svg" alt="Owambe Connect — event vendor marketplace website" loading="lazy" width="640" height="400">
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__category">Client Site · Marketplace</span>
+              <h3 class="project-card__title">Owambe Connect</h3>
+              <p class="project-card__desc">UK event-vendor marketplace connecting planners with photographers, caterers, DJs, decorators, and more across 12+ categories—custom WordPress build with vendor listings and direct-contact flows.</p>
+              <ul class="project-card__tags">
+                <li><span class="tag">WordPress</span></li>
+                <li><span class="tag">Marketplace</span></li>
+                <li><span class="tag">Directory</span></li>
+              </ul>
+              <div class="project-card__actions">
+                <a href="https://owambeconnect.com/" class="project-card__link project-card__link--primary" target="_blank" rel="noopener noreferrer">Live site</a>
+              </div>
+            </div>
+          </article>
+
           <article class="project-card" data-category="wordpress opensource plugins">
             <div class="project-card__thumb">
               <img src="assets/images/projects/siddik-devkit-woocommerce.png" alt="Siddik DevKit for WooCommerce WordPress plugin" loading="lazy" width="640" height="400">
