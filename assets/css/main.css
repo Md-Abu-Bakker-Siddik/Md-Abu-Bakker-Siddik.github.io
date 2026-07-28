@@ -862,6 +862,12 @@ textarea {
     align-items: start;
   }
 }
+.career-timeline__col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  min-width: 0;
+}
 
 .career-org {
   background: var(--color-bg-card);

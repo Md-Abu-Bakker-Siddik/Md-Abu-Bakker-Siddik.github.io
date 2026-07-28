@@ -147,6 +147,15 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: start;
   }
+
+  // Org cards are stacked inside per-column wrappers so a short card
+  // never leaves a grid-row hole next to a tall one.
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+    min-width: 0;
+  }
 }
 
 .career-org {
